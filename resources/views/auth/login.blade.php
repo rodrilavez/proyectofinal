@@ -8,7 +8,7 @@
         <h2 class="text-2xl font-bold text-center mb-6">Iniciar Sesión</h2>
         <!-- Elimina la acción para que no se envíe a ninguna ruta -->
         <form method="POST" action="#">
-            <!-- @csrf No es necesario incluir esto si no vas a usar lógica -->
+            @csrf 
             <div class="mb-4">
                 <label class="block text-gray-700" for="email">Correo Electrónico</label>
                 <input class="w-full p-2 border border-gray-300 rounded" id="email" name="email" type="email" required autofocus/>
